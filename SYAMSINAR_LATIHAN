@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main(){
+	int m,n,o,p;
+	cout<<"Masukan Jumlah Baris:";
+	cin>>p;
+	for(m=p;m>=0;m--){
+		for(n=m;n>=0;n--){
+			cout<<"";
+		}
+		for(o=1;o=p-m; o++){
+			cout<<"*";
+		}
+		for(o=1;o<p-m; o++){
+			cout<<"*";
+		}
+		cout<<endl;
+	}
+	_getche();
+	return 0;
+}
