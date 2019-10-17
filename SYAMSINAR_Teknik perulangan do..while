@@ -11,7 +11,7 @@ int main()
     }
     while(bil < 5);
       cout<<endl;
-      cout<<"keluar. Bukan pernyataan do-while."end<<endl;
-      _getce();
+      cout<<"keluar. Bukan pernyataan do-while."<<endl;
+      _getche();
     return 0;
 }
